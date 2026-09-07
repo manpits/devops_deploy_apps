@@ -8,13 +8,6 @@ Aplikasi fullstack modern untuk mengelola buku kontak pribadi dengan fitur multi
 
 ```text
 latihan-deploy-laravel-react/
-├── install/                # Docker Orchestration Setup
-│   ├── docker-compose.yml  # Multi-container orchestration (Nginx, Backend, Frontend, MySQL)
-│   ├── .env.docker         # Docker environment variables
-│   ├── backend/Dockerfile  # PHP 8.3-FPM container
-│   ├── frontend/Dockerfile # React multi-stage build container
-│   └── nginx/default.conf  # Reverse proxy configuration
-│
 ├── backend/                # Laravel API Application
 
 │   ├── app/
